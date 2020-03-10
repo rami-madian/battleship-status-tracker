@@ -23,8 +23,8 @@ namespace BattleshipStateTracker.Controllers
             this.cache = cache;
         }
 
-        [HttpPut("board")]
-        public int CreateBoard([FromForm] int size)
+        [HttpPost("board/{size}")]
+        public int CreateBoard([FromRoute] int size)
         {
             Board board = new Board(size);
             cache.Set(board.Id, board);
