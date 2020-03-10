@@ -1,5 +1,13 @@
 # battleship-status-tracker
 
+# Running the Tests
+- Open the **BattleshipStateTracker** solution file using Visual Studio
+- Rebuild the **BattleshipTester** project
+- Open a terminal window and type
+```
+dotnet vstest BattleshipTester/bin/Debug/netcoreapp3.1/BattleshipTester.dll
+```
+
 # Running the BattleshipStateTracker API [Tested using VS on Mac]
 - Open the **BattleshipStateTracker** solution file using Visual Studio
 - Rebuild the **BattleshipStateTracker** project
