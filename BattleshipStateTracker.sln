@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipStateTracker", "BattleshipStateTracker\BattleshipStateTracker.csproj", "{526BBB28-B5F0-411C-A2BE-F3CB7D883946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleshipTester", "BattleshipTester\BattleshipTester.csproj", "{71EE657B-563B-4332-ABBA-80832EC1B4C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{526BBB28-B5F0-411C-A2BE-F3CB7D883946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526BBB28-B5F0-411C-A2BE-F3CB7D883946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526BBB28-B5F0-411C-A2BE-F3CB7D883946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526BBB28-B5F0-411C-A2BE-F3CB7D883946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71EE657B-563B-4332-ABBA-80832EC1B4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71EE657B-563B-4332-ABBA-80832EC1B4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71EE657B-563B-4332-ABBA-80832EC1B4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71EE657B-563B-4332-ABBA-80832EC1B4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
